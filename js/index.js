@@ -50,3 +50,7 @@ const personsArray = [
     ]
   },
 ];
+let resultOfMap = personsArray.map(item => {
+  let {isDeveloper, ...rest} = item;
+  return rest
+})
