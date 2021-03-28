@@ -54,3 +54,14 @@ const personsArray = [
     ]
   }
 ];
+
+const firstArray = [1,2,3,4];
+    const scndArray = ['14', '123','31'];
+    const newArray = [firstArray,...scndArray];
+    let [first, second, third, fourth, ...rrest] = personsArray;
+
+    let {age, name, ...rest} = first;
+    console.log(rest);
+
+    let newObj = Object.assign({a: 10, c: 'xxxx'}, {x: 42}, third);
+    console.log(newObj);
