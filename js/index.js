@@ -19,12 +19,6 @@ const personsArray = [
 
   },
   {
-    name: 'Stepan',
-    age: 24,
-    isDeveloper: true,
-    skills: ['html']
-  },
-  {
     name: 'Evelin',
     age: 32,
     isDeveloper: false,
