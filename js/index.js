@@ -49,4 +49,14 @@ const personsArray = [
       'Node Js'
     ]
   },
+  ,
+  {
+    name: 'Stepan',
+    age: 24,
+    isDeveloper: false,
+    skills: ['html',
+      'css',
+      'Node Js'
+    ]
+  }
 ];
