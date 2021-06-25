@@ -43,7 +43,6 @@ const personsArray = [
       'Node Js'
     ]
   },
-  ,
   {
     name: 'Stepan',
     age: 24,
@@ -65,3 +64,5 @@ const firstArray = [1,2,3,4];
 
     let newObj = Object.assign({a: 10, c: 'xxxx'}, {x: 42}, third);
     console.log(newObj);
+
+    //хоп хэй лалалей
